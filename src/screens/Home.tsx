@@ -52,9 +52,9 @@ const Home = (props: Props) => {
 
       <Button title="Buscar" onPress={handleSearch} />
 
-      <ScrollView style={styles.list}>
-        <FriendList data={friends} follow={handleFollow} />
-      </ScrollView>
+      {/* <ScrollView style={styles.list}> */}
+      <FriendList data={friends} follow={handleFollow} />
+      {/* </ScrollView> */}
     </View>
   );
 };
